@@ -105,6 +105,11 @@ config BLINK_SLEEP_TIME_MS
     default 1000 if BLINK_SLEEP_1000MS
     default 2000 if BLINK_SLEEP_2000MS
 
+config APP_HEARTBEAT_PERIOD_MS
+    int "Heartbeat period (ms)"
+    range 100 2000
+    default 500
+
 # -------------------------------
 # Advanced Settings (submenu)
 # -------------------------------
