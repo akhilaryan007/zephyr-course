@@ -1,0 +1,13 @@
+# config BOARD_MYBOARDS
+# 	select SOC_MCXA156 if BOARD_MY_BOARDS
+# 	select SOC_PART_NUMBER_MCXA156VLL
+
+# config BOARD_MYBOARDS
+#     bool "My Boards"
+#     select SOC_SERIES_MCXA
+#     select SOC_MCXA156
+
+
+config BOARD_MYBOARDS
+    bool "My Boards"
+

@@ -1,0 +1,6 @@
+config BOARD_MYBOARDS
+    bool
+    select SOC_SERIES_MCXA
+    select SOC_MCXA156
+    select SOC_PART_NUMBER_MCXA156VLL
+
