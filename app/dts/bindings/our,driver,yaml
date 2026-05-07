@@ -1,0 +1,4 @@
+description : Our Simple GPIO driver
+compatible : "our,driver"
+include : base.yaml
+status : "okay"

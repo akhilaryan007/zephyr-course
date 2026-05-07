@@ -1,0 +1,6 @@
+/ {
+    our_driver: our_driver@0 {
+        compatible = "iomico,my-sensor";
+        status = "okay";
+    };
+};

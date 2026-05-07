@@ -149,4 +149,5 @@ endif # LED_ADVANCED
 endif # LED_SUBSYSTEM
 
 source "Kconfig.zephyr"
+rsource "drivers/our_driver/Kconfig" 
 

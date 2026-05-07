@@ -1,5 +1,24 @@
+
+
 / {
+    leds {
+        compatible = "gpio-leds";
+
+        red_led: led_0 {
+            gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+            label = "Red LED";
+        };
+    };
+
+        our_driver: my_sensor {
+        compatible = "iomico,sensor";
+        status = "okay";
+    };
+
     aliases {
         app-led = &red_led;
     };
 };
+
+
+//app-led 
