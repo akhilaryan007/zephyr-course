@@ -10,9 +10,14 @@
         };
     };
 
-        our_driver: my_sensor {
-        compatible = "iomico,sensor";
-        status = "okay";
+        our_driver0: our_driver0 {
+            compatible = "iomico,sensor";
+            status = "okay";
+    };
+
+    our_driver1: our_driver1 {
+            compatible = "iomico,sensor";
+            status = "okay";
     };
 
     aliases {
