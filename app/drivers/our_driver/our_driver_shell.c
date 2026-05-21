@@ -38,12 +38,6 @@ static int cmd_sensor_fetch(const struct shell *sh,
     return 0;
 }
 
-// static int cmd_channel_get_my_impl (const struct shell *sh, int argc, char **argv)
-// {
-//     shell_print(sh, "Channel Get Command Invoked");
-//     shell_info(sh, "Hey from channel get command!");
-//     return 0;
-// }
 
 static int cmd_sensor_read(const struct shell *sh,
                            size_t argc,
@@ -84,9 +78,3 @@ SHELL_CMD_REGISTER(sensor,
                    "Sensor commands",
                    NULL);
 
-// SHELL_STATIC_SUBCMD_SET_CREATE(our_driver_subcmd,
-//     SHELL_CMD(channel_get, NULL, "Get LED state", cmd_channel_get_my_impl),
-//     SHELL_SUBCMD_SET_END
-// );
-
-// SHELL_CMD_REGISTER(our_driver, &our_driver_subcmd, "Our Driver Shell Commands", NULL);
