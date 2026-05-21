@@ -13,3 +13,4 @@ void testable_sensor(void)
 
     printk("Sensor ready\n");
 }
+

@@ -18,6 +18,8 @@ project(my_zephyr_app)
 target_sources(app PRIVATE
     src/main.c
     drivers/our_driver/our_driver.c
+    drivers/our_driver/our_driver_shell.c
+
 )
 add_subdirectory(drivers/our_driver)
 target_include_directories(app PRIVATE src)
